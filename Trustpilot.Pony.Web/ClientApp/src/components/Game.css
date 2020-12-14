@@ -1,0 +1,76 @@
+.game-container{
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 700px;
+}
+.table .west {
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-left-color: black;
+}
+
+.table .north {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: black;
+}
+
+.player {
+    background-position: center;
+    background-size: 35px;
+    background-repeat: no-repeat;
+}
+
+.monster {
+    background-image: url("/img/domo.png");
+    background-position: center;
+    background-size: 45px;
+    background-repeat: no-repeat;
+}
+
+.endpoint {
+    background-image: url("/img/exit.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.game-result-img {
+    width: 700px;
+}
+
+.table td {
+    height: 45px;
+    width: 45px;
+    border: unset;
+}
+
+.table {
+    margin-bottom: unset;
+}
+
+/* Fix the right and bottim having double borders appliaed from .game-container */
+.table td:last-child {
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: black;
+}
+
+.table tr:last-child td {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+}
+
+.applejack {
+    background-image: url("/img/applejack.png");
+}
+
+.pinkie_pie {
+    background-image: url("/img/pinkie_pie.png");
+}
+
+.rainbow_dash {
+    background-image: url("/img/rainbow_dash.png");
+}

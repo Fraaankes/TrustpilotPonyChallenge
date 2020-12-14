@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trustpilot.Pony.Console", "Trustpilot.Pony.Console\Trustpilot.Pony.Console.csproj", "{B0DF0E4C-297B-4E99-9DA3-747061433368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustpilot.Pony.Core", "Trustpilot.Pony.Core\Trustpilot.Pony.Core.csproj", "{23457C33-A9F0-4047-A808-90F1C256B1F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trustpilot.Pony.Tests", "Trustpilot.Pony.Tests\Trustpilot.Pony.Tests.csproj", "{1DDD5228-6CC9-4ADC-88BB-C57FE60FDA7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trustpilot.Pony.Web", "Trustpilot.Pony.Web\Trustpilot.Pony.Web.csproj", "{E28FA9FC-AC55-4234-A6DF-323721D2C079}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0DF0E4C-297B-4E99-9DA3-747061433368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DF0E4C-297B-4E99-9DA3-747061433368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DF0E4C-297B-4E99-9DA3-747061433368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DF0E4C-297B-4E99-9DA3-747061433368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23457C33-A9F0-4047-A808-90F1C256B1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23457C33-A9F0-4047-A808-90F1C256B1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23457C33-A9F0-4047-A808-90F1C256B1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23457C33-A9F0-4047-A808-90F1C256B1F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DDD5228-6CC9-4ADC-88BB-C57FE60FDA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DDD5228-6CC9-4ADC-88BB-C57FE60FDA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DDD5228-6CC9-4ADC-88BB-C57FE60FDA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DDD5228-6CC9-4ADC-88BB-C57FE60FDA7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E28FA9FC-AC55-4234-A6DF-323721D2C079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E28FA9FC-AC55-4234-A6DF-323721D2C079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E28FA9FC-AC55-4234-A6DF-323721D2C079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E28FA9FC-AC55-4234-A6DF-323721D2C079}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7395ECD-EBF0-43B3-A112-834171F207B9}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
